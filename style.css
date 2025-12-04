@@ -1,0 +1,146 @@
+body {
+      background-color: #bcd3bc;
+}
+
+header {
+    display: grid;
+    grid-template-rows: auto;
+    width:100%; 
+    height:500px;
+    background-color: rgb(70, 131, 70);
+    background-size: cover;
+    color: rgb(28, 52, 28);
+    background-image: url('BackgroundTrees3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.Name {
+    float: left;
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1%;
+    color: white;
+    padding: none;
+    margin-top: 1.5%;
+}
+ .dropdown-nav {
+    background-color: rgb(72, 144, 72);
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 2%; 
+    margin-top: 1%;
+    height: 50px;
+    width: 380px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+.Menu {
+    float: right; 
+    font-size: 32px;
+    color: white;
+}
+.NameSection {
+    width: 100%; 
+    height: 90px;
+   
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.HeaderDescription {
+    justify-self: center;
+    margin: 30px;
+    clear: both; 
+    font-size: 24px;
+    width: 750px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(244, 255, 244, 0.4);
+    backdrop-filter: blur(2px) saturate(100%);
+    border: 1px solid rgba(255, 255, 255, 0.388);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.MenuGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 60px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+
+.MenuButton {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.MenuButton div {
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;
+    transition: 0.25s ease;
+}
+
+
+.MenuButton div:hover {
+    transform: scale(1.05);
+    background: #d9ecd9;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+/* Titles */
+.TradeOffer,
+.GreenPoint,
+.TasksAndGreenTask {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+/* Paragraphs */
+.ParagraphTO,
+.ParagraphGP,
+.ParagraphTAGT {
+    font-size: 16px;
+    line-height: 1.5;
+}
+@media (max-width: 768px) {
+    .HeaderDescription {
+        display: grid;
+        width: auto;
+    }
+    .dropdown-nav {
+        width: 100px;
+    }
+    .MenuGrid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+@media (max-width: 375px) {
+    .HeaderDescription {
+        display: grid;
+        width: auto;
+    }
+    .dropdown-nav {
+        width: 100px;
+    }
+    .MenuGrid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
