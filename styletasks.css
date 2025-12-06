@@ -1,5 +1,12 @@
 body {
-      background-color: #e8f3e8;
+    background-color: #e8f3e8;
+    background-image: url('HeaderBackground1.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    
 }
 
 header {
@@ -10,9 +17,9 @@ header {
     background-color: rgb(70, 131, 70);
     background-size: cover;
     color: rgb(28, 52, 28);
-     background-image: url('BackgroundTrees3.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+    background-image: url('BackgroundTrees3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -24,10 +31,6 @@ header {
     color: white;
     padding: none;
     margin-top:1.5%;
-    
-      
-
-
 }
  .dropdown-nav {
     background-color: rgb(72, 144, 72);
@@ -49,21 +52,13 @@ header {
     font-size: 32px;
     color: white;
 }
-.NameSection {
-    width: 100%; 
-    height:90px;
-    background-image: url('BackgroundTrees3.jpg');
-      background-repeat: no-repeat;
-       background-attachment: fixed;
-  background-size: cover;
-  
-}
+
 
 .HeaderTitle {
-float: left;
-clear: both;
-font-size:64px;
-margin-left:41%;
+    float: left;
+    clear: both;
+    font-size:64px;
+    margin-left:41%;
 }
 
 .HeaderDescription {
@@ -71,24 +66,8 @@ margin-left:41%;
     margin-left:25%;
     width:850px;
     text-align: center;
-    
 }
 
-.TradeOfferSection {
-    clear: left;
-    float: left; 
-    width:400px;
-    margin-left: 12%;
-    height:200px;
-    margin-top:7%;
-    
-}
-.TradeOffer {
-    font-size:32px;
-    float: left;
-    margin-left:28%;
-   
-}
 .ParagraphTO {
     float: left;
     text-align: center;
@@ -102,22 +81,19 @@ margin-left:41%;
     margin-left: 38%;
     height:200px;
     margin-top:0px;
-  
-    
 }
 .TasksAndGreenTask {
   font-size:32px;
     float: left;
     margin-left:18%;
     text-align: center;
-   
 }
 .ParagraphTAGT {
     float: right;
     text-align: center;
     margin: 0px;
     padding: 0px;
-   } 
+} 
 .GreenPointSection {
     clear: right;
     float: left; 
@@ -129,11 +105,9 @@ margin-left:41%;
      margin-right:12%;
 }
 .GreenPoint {
- font-size:32px;
+    font-size:32px;
     float: right;
     margin-right:28%;
-    
-   
 }
 .ParagraphGP {
     float: right;
@@ -141,7 +115,56 @@ margin-left:41%;
     margin: 0px;
     padding: 0px;
     clear: both;
-   } 
+} 
+.PersonalTasks {
+    float: left; 
+    font-size: 34pt;
+    text-align: left; 
+    color: rgb(28, 52, 28);
+    margin-left:3%;
+    margin-top:4%;
+}
+   
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    padding: 50px;
+}
+
+.sectionPT {
+    text-align: center;
+    font-size: 22pt;
+    color:rgb(28, 52, 28);
+}
+.sectionGT {
+    text-align: center;
+    font-size: 22pt;
+    color:rgb(28, 52, 28);
+}
+
+    /* Task cards */
+.task-box {
+    text-justify: center;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 50px;
+    margin: 40px 0px ;
+    width: 430px;
+    background-color: rgba(255, 255, 255, 0.33);
+    backdrop-filter: blur(3px) saturate(100%);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    font-weight:bold;
+    color:rgb(28, 52, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    height:150px;   
+    transition: 0.25s ease;
+}
+    .task-box:hover {
+    transform: scale(1.05);
+    background: #d9ecd9;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
 @media (max-width: 768px) {
     .HeaderDescription {
         display: grid;
@@ -149,6 +172,9 @@ margin-left:41%;
     }
     .dropdown-nav {
         width: 100px;
+        height: auto;
+        font-size: 20px;
+        text-wrap: inherit;
     }
     .MenuGrid {
         display: grid;
@@ -162,6 +188,9 @@ margin-left:41%;
     }
     .dropdown-nav {
         width: 100px;
+        height: auto;
+        font-size: 20px;
+        text-wrap: inherit;
     }
     .MenuGrid {
         display: grid;

@@ -1,5 +1,11 @@
 body {
-      background-color: #bcd3bc;
+    background-color: #e8f3e8;
+    background-image: url('HeaderBackground1.png');
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
 }
 
 header {
@@ -14,6 +20,7 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin:0px;
 }
 
 .Name {
@@ -79,14 +86,13 @@ header {
     max-width: 1200px;
     padding: 20px;
 }
-
-
 .MenuButton {
     text-decoration: none;
     color: inherit;
+    background-color: rgba(255, 255, 255, 0.33);
+    backdrop-filter: blur(3px) saturate(100%);
+    border-radius: 14px;
 }
-
-
 .MenuButton div {
     padding: 30px;
     border-radius: 14px;
@@ -94,8 +100,6 @@ header {
     text-align: center;
     transition: 0.25s ease;
 }
-
-
 .MenuButton div:hover {
     transform: scale(1.05);
     background: #d9ecd9;
@@ -125,6 +129,9 @@ header {
     }
     .dropdown-nav {
         width: 100px;
+        height: auto;
+        font-size: 20px;
+        text-wrap: inherit;
     }
     .MenuGrid {
         display: grid;
@@ -138,6 +145,9 @@ header {
     }
     .dropdown-nav {
         width: 100px;
+        height: auto;
+        font-size: 20px;
+        text-wrap: inherit;
     }
     .MenuGrid {
         display: grid;
