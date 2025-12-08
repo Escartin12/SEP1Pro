@@ -1,5 +1,4 @@
 body {
-    background-color: #e8f3e8;
     background-image: url('HeaderBackground1.png');
     height: 1000px;
     background-repeat: no-repeat;
@@ -25,19 +24,20 @@ header {
 
 .Name {
     float: left;
-    font-size:36px;
+    font-size: 46px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left:1%;
-    color: white;
-    padding: none;
+    color: #e8f3e8;
     margin-top:1.5%;
 }
- .dropdown-nav {
+
+.dropdown-nav {
     background-color: rgb(72, 144, 72);
-    color: white;
+    color: #e8f3e8;
     padding: 8px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: none;
     float: right;
     margin-right: 2%; 
     margin-top: 1%;
@@ -46,32 +46,12 @@ header {
     font-size: 24px;
     cursor: pointer;
 }
-
-.Menu {
-    float: right; 
-    font-size: 32px;
-    color: white;
-}
-
-.HeaderTitle {
-    float: left;
-    clear: both;
-    font-size:64px;
-    margin-left:41%;
-}
-
-.HeaderDescription {
-    clear: both; 
-    margin-left:25%;
-    width:850px;
-    text-align: center;
-}
 .container {
     width: 300px;
-    background-color: #ddd;
+    background-color: #e8f3e8;
     border-radius: 20px;
     overflow: hidden;
-    margin : 20px auto;
+    margin: 20px auto;
 }
 
 .bar {
@@ -80,17 +60,18 @@ header {
     background-color: green;
     transition: width 0.4s ease;
 }
-.number{
+
+.number {
     text-align: center;
     font-size: 32px;
     color:rgb(28, 52, 28);
 }
-.points{
+
+.points {
     text-align: center;
     font-size: 24px;
     margin-top: 20px;
 } 
-
 
 .HeaderPoints {
     margin: 0px; 
@@ -98,6 +79,7 @@ header {
     font-size:44pt;
     color:rgb(28, 52, 28);
 }
+
 .HeaderParagraph {
     margin: 0px; 
     padding: 0px;  
