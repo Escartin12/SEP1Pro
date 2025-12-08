@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TradeOfferList>
+    <tradeOffers>
+        <tradeOffer>
+            <description>Old Game Console</description>
+            <price>150</price>
+            <user>
+                <name>Alice</name>
+                <balance>100</balance>
+                <activity>true</activity>
+                <boost>10</boost>
+            </user>
+        </tradeOffer>
+
+        <tradeOffer>
+            <description>Mountain Bike</description>
+            <price>300</price>
+            <user>
+                <name>Bob</name>
+                <balance>250</balance>
+                <activity>false</activity>
+                <boost>0</boost>
+            </user>
+        </tradeOffer>
+    </tradeOffers>
+</TradeOfferList>

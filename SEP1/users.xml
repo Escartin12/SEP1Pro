@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<UserList>
+  <users>
+    <balance>200</balance>
+    <activity>false</activity>
+    <name>Adrian</name>
+    <boost>0</boost>
+  </users>
+  <users>
+    <balance>100</balance>
+    <activity>true</activity>
+    <name>Alex</name>
+    <boost>10</boost>
+  </users>
+  <users>
+    <balance>100</balance>
+    <activity>false</activity>
+    <name>Kamila</name>
+    <boost>20</boost>
+  </users>
+  <users>
+    <balance>1</balance>
+    <activity>true</activity>
+    <name>Allan</name>
+    <boost>1</boost>
+  </users>
+</UserList>

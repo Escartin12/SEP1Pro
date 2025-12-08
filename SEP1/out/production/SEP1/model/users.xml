@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserList>
+    <users>
+        <user>
+            <name>Alice</name>
+            <balance>100</balance>
+            <activity>true</activity>
+            <boost>10</boost>
+        </user>
+        <user>
+            <name>Bob</name>
+            <balance>250</balance>
+            <activity>false</activity>
+            <boost>0</boost>
+        </user>
+    </users>
+</UserList>

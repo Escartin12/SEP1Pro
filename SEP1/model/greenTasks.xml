@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GreenTaskList>
+    <greenTasks>
+        <greenTask>
+            <description>Recycle plastic bottles</description>
+            <reward>10</reward>
+        </greenTask>
+        <greenTask>
+            <description>Bike to school</description>
+            <reward>25</reward>
+        </greenTask>
+    </greenTasks>
+</GreenTaskList>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TaskList>
+    <tasks>
+        <task>
+            <description>Clean your room</description>
+            <reward>20</reward>
+        </task>
+        <task>
+            <description>Do homework</description>
+            <reward>15</reward>
+        </task>
+    </tasks>
+</TaskList>

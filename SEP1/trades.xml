@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<TradeOfferList>
+  <trades>
+    <price>21</price>
+    <description>Axe</description>
+    <user>
+      <balance>200</balance>
+      <activity>false</activity>
+      <name>Adrian</name>
+      <boost>0</boost>
+    </user>
+  </trades>
+</TradeOfferList>
