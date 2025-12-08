@@ -1,5 +1,4 @@
 body {
-    background-color: #e8f3e8;
     background-image: url('HeaderBackground1.png');
     height: 1000px;
     background-repeat: no-repeat;
@@ -11,8 +10,8 @@ body {
 header {
     display: grid;
     grid-template-rows: auto;
-    width:100%; 
-    height:100px;
+    width: 100%; 
+    height: 100px;
     background-color: rgb(70, 131, 70);
     background-size: cover;
     color: rgb(28, 52, 28);
@@ -24,19 +23,20 @@ header {
 
 .Name {
     float: left;
-    font-size:36px;
+    font-size: 46px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left:1%;
-    color: white;
-    padding: none;
-    margin-top:1.5%;
+    margin-left: 1%;
+    color: #e8f3e8;
+    margin-top: 1.5%;
 }
+
 .dropdown-nav {
     background-color: rgb(72, 144, 72);
-    color: white;
+    color: #e8f3e8;
     padding: 8px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: none;
     float: right;
     margin-right: 2%; 
     margin-top: 1%;
@@ -44,135 +44,48 @@ header {
     width: 380px;
     font-size: 24px;
     cursor: pointer;
-  }
-
-.Menu {
-    float: right; 
-    font-size: 32px;
-    color: white;
-}
-
-.HeaderTitle {
-    float: left;
-    clear: both;
-    font-size:64px;
-    margin-left:41%;
-}
-
-.HeaderDescription {
-    clear: both; 
-    margin-left:25%;
-    width:850px;
-    text-align: center;
-}
-
-.TradeOfferSection {
-    clear: left;
-    float: left; 
-    width:400px;
-    margin-left: 12%;
-    height:200px;
-    margin-top:7%;
-}
-.TradeOffer {
-    font-size:32px;
-    float: left;
-    margin-left:28%;
-}
-.ParagraphTO {
-    float: left;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-}
-.TasksAndGreenTaskSection {
-    clear: both;
-    float: left; 
-    width:400px;
-    margin-left: 38%;
-    height:200px;
-    margin-top:0px;
-}
-.TasksAndGreenTask {
-  font-size:32px;
-    float: left;
-    margin-left:18%;
-    text-align: center;
-}
-.ParagraphTAGT {
-    float: right;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-   } 
-.GreenPointSection {
-    clear: right;
-    float: left; 
-    width:400px;
-    margin-left: 4%;
-    height:200px;
-    margin-top:7%;
-     float: right;
-     margin-right:12%;
-}
-.GreenPoint {
- font-size:32px;
-    float: right;
-    margin-right:28%;
-    
-   
-}
-.ParagraphGP {
-    float: right;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    clear: both;
 }
 
 article {
-display: grid; 
-grid-template-columns: auto auto;
-justify-items: center;
-
-} 
-.grid {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 20px;
-margin-top: 40px;
-clear: both;
+    display: grid; 
+    grid-template-rows:auto;
+    justify-items: center;
 }
-.card {
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+.grid div {
     background: white;
-padding: 20px;
-border-radius: 8px;
-height: 200px;
-transition: transform 0.3s ease;
-width: auto; 
-margin: 10%;
-font-size:32pt;
-clear: both;
- background-color: rgba(255, 255, 255, 0.33);
+    padding: 20px;
+    border-radius: 8px;
+    height: 200px;
+    transition: transform 0.3s ease;
+    width: auto; 
+    margin: 0 10% 10% 10%;
+    font-size:32pt;
+    clear: both;
+    background-color: rgba(255, 255, 255, 0.33);
     backdrop-filter: blur(3px) saturate(100%);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
-.card:hover {
-transform: scale(1.05);
-background: #d9ecd9;
+.grid div:hover {
+    transform: scale(1.05);
+    background: #d9ecd9;
     box-shadow: 0 6px 16px rgba(0,0,0,0.25);
 }
 
 .NameTO {
-margin-left:3%;
-margin-top:4%;
-font-size:37pt;
-height:50px;
-padding: none;
-margin-bottom:0px;
-font-weight: bold;
-color:rgb(28, 52, 28);
-
+    padding-left: 10%;
+    width: 100%;
+    float: left;
+    font-size:37pt;
+    height:10px;
+    padding: none;
+    font-weight: bold;
+    color:rgb(28, 52, 28);
 }
 @media (max-width: 768px) {
     .HeaderDescription {
