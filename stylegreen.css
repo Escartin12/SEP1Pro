@@ -86,35 +86,5 @@ header {
     color:rgb(28, 52, 28);
 }
 
-@media (max-width: 768px) {
-    .body {
-        display: grid;
-        width: auto;
-    }
-    .dropdown-nav {
-        width: 100px;
-        height: 70px;
-        font-size: 17px;
-        text-wrap: inherit;
-    }
-    .MenuGrid {
-        display: grid;
-        grid-template-columns: auto;
-    }
-}
-@media (max-width: 375px) {
-    .body {
-        display: grid;
-        width: auto;
-    }
-    .dropdown-nav {
-        width: 100px;
-        height: 70px;
-        font-size: 17px;
-        text-wrap: inherit;
-    }
-    .MenuGrid {
-        display: grid;
-        grid-template-columns: auto;
-    }
-}
+
+
