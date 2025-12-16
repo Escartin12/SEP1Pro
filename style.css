@@ -111,35 +111,6 @@ header {
     font-size: 16px;
     line-height: 1.5;
 }
-@media (max-width: 768px) {
-    .HeaderDescription {
-        display: grid;
-        width: auto;
-    }
-    .dropdown-nav {
-        width: 100px;
-        height: auto;
-        font-size: 20px;
-        text-wrap: inherit;
-    }
-    .MenuGrid {
-        display: grid;
-        grid-template-columns: auto;
-    }
-}
-@media (max-width: 375px) {
-    .HeaderDescription {
-        display: grid;
-        width: auto;
-    }
-    .dropdown-nav {
-        width: 100px;
-        height: auto;
-        font-size: 20px;
-        text-wrap: inherit;
-    }
-    .MenuGrid {
-        display: grid;
-        grid-template-columns: auto;
-    }
-}
+
+
+
